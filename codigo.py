@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Carregar a base de vendas
-tabela_vendas = pd.read_csv("Material Didático/vendas.csv")
+tabela_vendas = pd.read_csv("vendas.csv")
 vendedores = ["Ana", "Bruno", "Carla"]
 produtos = ["Notebook", "Celular", "Fone"]
 
